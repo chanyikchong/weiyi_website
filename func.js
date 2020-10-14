@@ -6,12 +6,12 @@ function music(){
     if (is_play){
         audio.play();
         is_play = false;
-        img.src = "https://github.com/chanyikchong/weiyi_website/blob/master/stop.jpg" 
+        img.src = "https://github.com/chanyikchong/weiyi_website/blob/master/stop.jpg?raw=true" 
     }
     else {
         audio.pause();
         is_play = true;
-        img.src = "https://github.com/chanyikchong/weiyi_website/blob/master/play.jpg"
+        img.src = "https://github.com/chanyikchong/weiyi_website/blob/master/play.jpg?raw=true"
     }
 }
 
