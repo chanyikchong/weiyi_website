@@ -6,26 +6,26 @@ function music(){
     if (is_play){
         audio.play();
         is_play = false;
-        img.src = "/stop.jpg" 
+        img.src = "https://github.com/chanyikchong/weiyi_website/blob/master/stop.jpg" 
     }
     else {
         audio.pause();
         is_play = true;
-        img.src = "/play.jpg"
+        img.src = "https://github.com/chanyikchong/weiyi_website/blob/master/play.jpg"
     }
 }
 
 var pic = [
-    '/wy1.jpg',
-    '/wy2.jpg',
-    '/wy3.jpg',
-    '/wy4.jpg',
-    '/wy5.jpg',
-    '/wy6.jpg',
-    '/wy7.jpg',
-    '/wy8.jpg',
-    '/wy9.jpg',
-    '/wy10.jpg'
+    'https://github.com/chanyikchong/weiyi_website/blob/master/wy1.jpg',
+    'https://github.com/chanyikchong/weiyi_website/blob/master/wy2.jpg',
+    'https://github.com/chanyikchong/weiyi_website/blob/master/wy3.jpg',
+    'https://github.com/chanyikchong/weiyi_website/blob/master/wy4.jpg',
+    'https://github.com/chanyikchong/weiyi_website/blob/master/wy5.jpg',
+    'https://github.com/chanyikchong/weiyi_website/blob/master/wy6.jpg',
+    'https://github.com/chanyikchong/weiyi_website/blob/master/wy7.jpg',
+    'https://github.com/chanyikchong/weiyi_website/blob/master/wy8.jpg',
+    'https://github.com/chanyikchong/weiyi_website/blob/master/wy9.jpg',
+    'https://github.com/chanyikchong/weiyi_website/blob/master/wy10.jpg'
 ];
 
 var pic_wh = [
