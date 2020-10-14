@@ -43,7 +43,6 @@ var pic_wh = [
 var pic_idx = 1;
 function changepic(){
     var img = document.getElementById("wypic");
-    console.log(img.width)
     img.src = pic[pic_idx];
     img.width = pic_wh[pic_idx][0];
     img.height = pic_wh[pic_idx][1];
@@ -51,9 +50,6 @@ function changepic(){
     if (pic_idx>=pic.length){
         pic_idx = 0;
     }
-    console.log(pic_wh[pic_idx][0])
-    console.log(typeof(pic_wh[pic_idx][0]))
-    console.log(img.width)
 }
 
 window.onload = playmusic();
