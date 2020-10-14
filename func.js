@@ -16,7 +16,7 @@ function music(){
 }
 
 var pic = [
-    'https://github.com/chanyikchong/weiyi_website/blob/master/wy1.jpg',
+    'https://github.com/chanyikchong/weiyi_website/blob/master/wy1.jpg?raw=true',
     'https://github.com/chanyikchong/weiyi_website/blob/master/wy2.jpg',
     'https://github.com/chanyikchong/weiyi_website/blob/master/wy3.jpg',
     'https://github.com/chanyikchong/weiyi_website/blob/master/wy4.jpg',
