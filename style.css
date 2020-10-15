@@ -26,6 +26,23 @@
     opacity: 1;
     transition: opacity 1s linear;
 }
+#second_container{
+    background-color: rgb(122, 202, 255);
+    margin-left: 50px; 
+    margin-right: 50px;
+}
+.dot_lines{
+    border-top: dotted 1px; 
+    margin-left: 100px; 
+    margin-right: 100px; 
+    size: 3px;
+    color: white
+}
+.menue{
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 20px;
+}
 .bannerimage{
     width:750px;
     height:500px;
@@ -66,3 +83,4 @@
     border-radius:100%;
     cursor: pointer;
 }
+
