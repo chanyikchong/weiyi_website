@@ -4,12 +4,12 @@ function music(){
     if (is_play){
         audio.play();
         is_play = false;
-        img.src = "./img/stop.jpg" 
+        img.src = "./img/fig/stop.jpg" 
     }
     else {
         audio.pause();
         is_play = true;
-        img.src = "./img/play.jpg"
+        img.src = "./img/fig/play.jpg"
     }
     console.log(audio)
 }
