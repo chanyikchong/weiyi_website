@@ -1,3 +1,7 @@
+.body_style{
+    background-image: url(./img/fig/strawberry.jpg);
+    min-width: 1050px;
+}
 .TableClass{
     padding-left: 50px;
     padding-right: 50px;
