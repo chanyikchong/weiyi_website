@@ -1,0 +1,68 @@
+.TableClass{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.TableClass2{
+    padding-right: 5px;
+    color:rgb(233, 72, 185);
+}
+    a:link {color: rgb(233, 72, 185);}
+    a:visited {color: rgb(233, 72, 185);}
+    a:hover {color: green;}
+#slide_window{
+    margin-left: 100px;
+    margin-right: 100px; 
+    margin-bottom: 50px; 
+    background-color: white;
+}
+#slide_window img{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    /* opacity: 0;
+    transition: opacity 1s linear; */
+}
+#slide_window img.active{
+    opacity: 1;
+    transition: opacity 1s linear;
+}
+.bannerimage{
+    width:750px;
+    height:500px;
+    margin: 0px auto;
+    background-size:100% 100%;
+    color:#fff;
+    box-shadow: 0 0 12px 2px  #142732;
+}
+.box{
+    width:750px;
+    height:500px;
+    margin:0px auto;
+    overflow: hidden;
+}
+.img-g{
+    width:5250px;
+    height:500px;
+    position:relative;
+}
+.img-g img{
+    float:left;
+    width:750px;
+    height:500px;
+    background-size: cover;
+}
+.button-g{
+    position:relative;
+    top:-35px;
+    text-align:center;
+}
+.button-g span{
+    display:inline-block;
+    position:relative;
+    z-index:10;
+    width:10px;
+    height:10px;
+    margin:0 5px;
+    border-radius:100%;
+    cursor: pointer;
+}
