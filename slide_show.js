@@ -3,7 +3,7 @@ $(function () {
     var p=document.getElementsByClassName('img-g')[0];
     var button=document.querySelectorAll('.button-g span')
     // 设置3秒播放
-    window.timer=setInterval(move,3000);
+    window.timer=setInterval(move,5000);
     // 轮播设置
     function move(){
         // bannerimage的宽度乘以图片的个数
@@ -32,7 +32,7 @@ $(function () {
             p.style.left=-750*this.getAttribute('data-index')+'px'
             tog(this.getAttribute('data-index'))
             clearInterval(window.timer)
-            window.timer=setInterval(move,3000);
+            window.timer=setInterval(move,5000);
         }
     }
     // 设置小圆点
@@ -53,6 +53,6 @@ $(function () {
     }
     // 鼠标移除事件
     p.onmouseout=function(){
-        window.timer=setInterval(move,3000);
+        window.timer=setInterval(move,5000);
     }
 });
