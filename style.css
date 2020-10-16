@@ -31,25 +31,21 @@
 }
 .menu{
     width: 100%;
-    background-color: khaki;
 }
 .menu td{
     width: auto;
     font-size: 100%;
     text-align: center;
-    background-color: lawngreen;
 }
 .small_menu{
     display: none;
     width: 100%;
-    background-color: khaki;
 }
 .small_menu td{
     width: 10%;
     font-size: 100%;
     text-align: center;
     overflow: hidden;
-    background-color: lawngreen;
 }
 .bannerimage{
     width:75%;
