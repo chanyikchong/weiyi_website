@@ -13,12 +13,11 @@ $(function () {
         if(parseInt(p.style.left)>-4200){
             // 和bannerimage的宽度保持一致即可：700
             move_x = img[0].offsetWidth
-            p.style.left=parseInt(p.style.left)-move_x+'px'
+            p.style.left=parseInt(p.style.left)-100+'%'//move_x+'px'
             p.style.transition='left 1s';
-            var index = -Math.round(parseInt(p.style.left)/move_x)
+            var index = -Math.round(parseInt(p.style.left)/100)
             tog(index)
-            // if(parseInt(p.style.left)<=-move_x*img.length){
-            if (index>=img.length-1){
+            if (index>img.length-2){
                 setTimeout(function(){
                     tog(0)
                     p.style.left='0px'
@@ -35,7 +34,7 @@ $(function () {
     for(var i=0;i<button.length;i++){
         // button[i].style.backgroundColor='#eee';
         button[i].onclick=function(){
-            p.style.left=-move_x*this.getAttribute('data-index')+'px'
+            p.style.left=-100*this.getAttribute('data-index')+'%'
             tog(this.getAttribute('data-index'))
             clearInterval(window.timer)
             window.timer=setInterval(move,5000);
