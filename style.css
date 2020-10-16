@@ -1,5 +1,7 @@
 .body_style{
     background-image: url(./img/fig/strawberry.jpg);
+    width: 100%;
+    height: 100%;
     min-width: 1050px;
 }
 .TableClass{
@@ -64,22 +66,24 @@
     box-shadow: 0 0 12px 2px  #142732;
 }
 .box{
-    width:750px;
-    height:500px;
+    /* width:750px;
+    height:500px; */
+    width:100%;
+    height:100%;
     margin:0px auto;
     overflow: hidden;
 }
 .img-g{
-    width:5250px;
-    height:500px;
+    width:700%;
+    height:100%px;
     position:relative;
 }
 .img-g img{
     float:left;
     /* width:750px;
     height:500px; */
-    width:auto;
-    height:auto;
+    width:14.285%;
+    height:100%;
     background-size: cover;
 }
 .button-g{
@@ -99,6 +103,9 @@
 }
 
 @media(max-width: 500px){
+    .body_style{
+        min-width: none;
+    }
     .menu{
         display: none;
     }
