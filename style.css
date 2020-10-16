@@ -4,13 +4,6 @@
     height: 100%;
     min-width: 1050px;
 }
-.TableClass{
-    padding-left: 50px;
-    padding-right: 50px;
-    font-size: 100%;
-    text-align: center;
-    background-color: lawngreen;
-}
 .TableClass2{
     padding-right: 5px;
     color:rgb(233, 72, 185);
@@ -43,24 +36,39 @@
 }
 .dot_lines{
     border-top: dotted 1px; 
-    margin-left: 10%; 
-    margin-right: 10%; 
+    /* margin-left: 10%; 
+    margin-right: 10%;  */
     size: 3px;
     color: white
 }
+.menu_container{
+    margin-left: 10%; 
+    margin-right: 10%; 
+}
 .menu{
-    margin-left: auto;
-    margin-right: auto; 
+    width: 100%;
     background-color: khaki;
+}
+.menu td{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 100%;
+    text-align: center;
+    background-color: lawngreen;
 }
 .small_menu{
     display: none;
-    /* margin-left: auto;
-    margin-right: auto; */
-    margin-left: 10%;
-    margin-right: 10%; 
+    width: 100%;
     font-size: 20px;
     background-color: khaki;
+    table-layout: fixed;
+}
+.small_menu td{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-size: 100%;
+    text-align: center;
+    background-color: lawngreen;
 }
 .bannerimage{
     width:75%;
@@ -125,10 +133,6 @@
     }
     .small_menu{
         display: block;
-    }
-    .TableClass{
-        padding-left: 30px;
-        padding-right: 30px;
     }
     #second_container{
         min-width: initial;
