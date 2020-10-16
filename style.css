@@ -116,3 +116,9 @@
         min-width: initial;
     }
 }
+@media(max-width: 300px){
+    .TableClass{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
