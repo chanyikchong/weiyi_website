@@ -11,7 +11,6 @@ function music(){
         is_play = true;
         img.src = "./img/fig/play.jpg"
     }
-    console.log(audio)
 }
 
 function slide() {
