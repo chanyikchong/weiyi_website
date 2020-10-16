@@ -112,4 +112,7 @@
     .small_menu{
         display: block;
     }
+    #second_container{
+        min-width: none;
+    }
 }
