@@ -7,6 +7,9 @@
 .TableClass{
     padding-left: 50px;
     padding-right: 50px;
+    font-size: 100%;
+    text-align: center;
+    background-color: lawngreen;
 }
 .TableClass2{
     padding-right: 5px;
@@ -17,7 +20,7 @@
     a:hover {color: green;}
 #slide_window{
     margin-left: 100px;
-    margin-right: 100px; 
+    margin-right: 100px;  
     margin-bottom: 50px; 
     background-color: white;
 }
@@ -48,12 +51,16 @@
 .menu{
     margin-left: auto;
     margin-right: auto; 
-    font-size: 20px;
+    background-color: khaki;
 }
 .small_menu{
     display: none;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-left: 10%;
+    margin-right: 10%; 
+    font-size: 20px;
+    background-color: khaki;
 }
 .bannerimage{
     width:75%;
@@ -101,10 +108,17 @@
     border-radius:100%;
     cursor: pointer;
 }
-
+@media(min-width: 500px){
+    .body_style{
+        min-width: 1050px;
+    }
+    #second_container{
+        min-width: 950px;
+    }
+}
 @media(max-width: 500px){
     .body_style{
-        min-width: initial;
+        min-width: initial; 
     }
     .menu{
         display: none;
@@ -112,13 +126,17 @@
     .small_menu{
         display: block;
     }
-    #second_container{
-        min-width: initial;
-    }
-}
-@media(max-width: 300px){
     .TableClass{
         padding-left: 30px;
         padding-right: 30px;
     }
+    #second_container{
+        min-width: initial;
+    }
 }
+/* @media(max-width: 400px){
+    .TableClass{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+} */
