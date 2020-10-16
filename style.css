@@ -45,9 +45,10 @@
     background-color: khaki;
 }
 .small_menu td{
-    width: 100%;
+    width: 10%;
     font-size: 100%;
     text-align: center;
+    overflow: hidden;
     background-color: lawngreen;
 }
 .bannerimage{
