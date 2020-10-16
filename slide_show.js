@@ -6,13 +6,10 @@ $(function () {
     // 设置3秒播放
     window.timer=setInterval(move,5000);
     // 轮播设置
-    var move_x = img[0].offsetWidth
     function move(){
         // bannerimage的宽度乘以图片的个数
-
-        if(parseInt(p.style.left)>-4200){
+        if(parseInt(p.style.left)>-100*(img.length-1)){
             // 和bannerimage的宽度保持一致即可：700
-            move_x = img[0].offsetWidth
             p.style.left=parseInt(p.style.left)-100+'%'//move_x+'px'
             p.style.transition='left 1s';
             var index = -Math.round(parseInt(p.style.left)/100)
@@ -42,7 +39,6 @@ $(function () {
     }
     // 设置小圆点
     function tog(index){
-        move_x = img[0].offsetWidth
         console.log(img[0].offsetWidth)
         if(index>5){
             tog(0);
