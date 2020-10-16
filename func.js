@@ -53,4 +53,4 @@ var is_play=true;
 // var pic_idx = 1;
 // slide()
 window.onload = music();
-console.log(document.getElementById("1").clientWidth)
+console.log(document.getElementById("second_container").offsetWidth) 
