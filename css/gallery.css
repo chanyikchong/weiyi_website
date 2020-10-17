@@ -1,5 +1,6 @@
 .gallery {
-    margin: 10px 50px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 .gallery img{
     transition: 1s;
