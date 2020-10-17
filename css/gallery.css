@@ -3,9 +3,12 @@
     margin-right: 3%;
 }
 .gallery img{
+    height: 10%;
+    max-height: 300px;
+    max-width: 95%;
+    padding: 5px;
+    background-size: cover;
     transition: 1s;
-    padding: 15px;
-    width: 200px;
 }
 .gallery img:hover{
     transform: scale(1.1);
