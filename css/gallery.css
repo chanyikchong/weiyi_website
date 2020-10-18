@@ -1,11 +1,12 @@
 .gallery {
     margin-left: 3%;
     margin-right: 3%;
+    text-align: center;
 }
 .gallery img{
     height: 10%;
-    max-height: 300px;
-    max-width: 95%;
+    max-height: 250px;
+    /* max-width: 95%; */
     padding: 5px;
     background-size: cover;
     transition: 1s;
